@@ -41,9 +41,6 @@ namespace chessEloSim
                 for (int i = 0; i < N_ROUNDS; ++i)
                     writer.WriteLine(playRound(players));
             }
-
-
-
         }
         private static String playRound(Player[] players)
         {
