@@ -29,8 +29,8 @@ namespace chessEloSim
 
             //To-Do
             //add support for CLI args
-            //write results to text file
             //create gnuplot script for displaying data
+            //figure out how to calc W/D/L prob
 
             const int N_ROUNDS = 40;
             Player[] players = generatePlayers(100);
