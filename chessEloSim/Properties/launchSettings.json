@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "chessEloSim": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Jacob\\Desktop\\Repos\\CS451 - Senior Project\\chessEloSim"
+    }
+  }
+}

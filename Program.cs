@@ -36,12 +36,8 @@ namespace chessEloSim
             Player[] players = generatePlayers(100);
 
             using (StreamWriter writer = new StreamWriter("data.txt"))
-            {
-                writer.WriteLine(getResults(players));
                 for (int i = 0; i < N_ROUNDS; ++i)
                     writer.WriteLine(playRound(players));
-            }
-
 
 
         }
